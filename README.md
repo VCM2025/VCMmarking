@@ -23,3 +23,18 @@
     </footer>
   </body>
 </html>
+// tailwind.config.js
+theme: {
+  extend: {
+    colors: {
+      phantom: {
+        base: '#f56275',
+        dark: '#1e1e2f',
+        light: '#fbd5dc',
+        gray: '#a6a7c0',
+        white: '#f9f9fb',
+        accent: '#3b3f66'
+      }
+    }
+  }
+}
